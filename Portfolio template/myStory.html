@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="myStory.css">
+        <meta charset="utf-8">
+        <title>My Story | Savage Photography</title>
+    </head>
+    <body>
+        <div class="sidenav" id="hamburger">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="myStory.html">My Story</a>
+            <a href="career.html">Career</a>
+            <a href="education.html">Education</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <img src="images/logo_lion.png" alt="Logo">
+        </div>
+        <span style="font-size 30px; cursor:pointer; margin-top:15px; margin-right:5%;" onclick="openNav()">&#9776;</span>
+
+        <script>
+
+            function openNav()
+            {
+                document.getElementById("hamburger").style.display="block";
+            }
+
+            function closeNav()
+            {
+                document.getElementById("hamburger").style.display="none";
+            }
+
+        </script>
+
+        <div class="story">
+            <h2>My Story</h2>
+            <p>I have always been inclined towards the artistic part of development i.e. Design.</p>
+            <p>I started to explore my designing skills with Graphic Design and tried my hand working with
+            tools like Illustrator, Photoshop and Indesign.</p>
+            <p>Thenafter, I gradually shifted towards Web Design and started learning the common Front-end
+            Development tools namely HTML, CSS and Javascript.</p>
+            <p>Pursuing my creative interest further, I got to learn Photography and took it further alongwith
+            my technical skills.</p>
+            <p>That's all for my Story. Hope you enjoyed reading it :)</p>
+        </div>
+
+
+    </body>
+</html>

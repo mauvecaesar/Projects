@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="portfolio.css">
+        <meta charset="utf-8">
+        <title>Portfolio | Photography</title>
+    </head>
+    <body>
+        <div class="sidenav" id="hamburger">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="myStory.html">My Story</a>
+            <a href="career.html">Career</a>
+            <a href="education.html">Education</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <img src="images/logo_lion.png" alt="Logo">
+        </div>
+        <span style="font-size 30px; cursor:pointer; margin-top:15px; margin-right:5%;" onclick="openNav()">&#9776;</span>
+
+        <script>
+
+            function openNav()
+            {
+                document.getElementById("hamburger").style.display="block";
+            }
+
+            function closeNav()
+            {
+                document.getElementById("hamburger").style.display="none";
+            }
+
+        </script>
+
+        <h1>See The World Through My Eyes</h1>
+
+        <div class="main">
+            <!--Main Photo-->
+            <div class="content">
+                <img src="images/wedding1.jpg" alt="Happy" style="width:100%">
+                <h3>Wedding</h3>
+            </div>
+        </div>
+
+        <!--Table Grid smaller 4 photos-->
+        <div class="row">
+
+            <div class="column">
+                <div class="content">
+                    <img src="images/portrait.jpg" alt="Model" style="width:100%">
+                    <h3>Portraits</h3>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="images/coffee.jpg" alt="Food" style="width:100%">
+                    <h3>Food Styling</h3>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="images/parrot.jpg" alt="wolf" style="width:100%">
+                    <h3>Nature</h3>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="images/canal.jpg" alt="colorful" style="width:100%">
+                    <h3>Architecture</h3>
+                </div>
+            </div>
+
+            <div class="content">
+                <img src="images/holdinghands.jpg" alt="Bye" style="width:100%">
+            </div>
+
+        </div>
+
+    </body>
+</html>
