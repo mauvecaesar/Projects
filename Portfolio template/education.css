@@ -1,0 +1,106 @@
+body{
+    background-image: url('images/education.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    -webkit-transform: translate (-40%, -30%);
+    transform: (-50%, -50%);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+td, th{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+th{
+    text-align: left;
+    background-color: #DDAF6B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+tbody td{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+tbody tr:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+tbody td:hover:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: -1;
+}
+
+.sidenav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/white.jpg');
+    background-size: 60% 14%;
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    width: 250px;
+    position : fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+span{
+    margin-top: 50px;
+    color: white;
+}
+
+.sidenav a{
+    padding: 23px 20px 0px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+}
+
+.sidenav a:hover{
+    color: gray;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    right: 0;
+    top: 0;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.sidenav img{
+    width: 60%;
+    height: 25%;
+    padding-left: 18%;
+    padding-top: 20%;
+    margin-bottom: 50px;
+}

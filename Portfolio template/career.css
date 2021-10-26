@@ -1,0 +1,167 @@
+html, body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/career2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Testimonials */
+
+.container{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    width: 38%;
+    margin-right: 20px;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(163, 207, 201, 0.2);
+}
+
+.container img{
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+h3, h2, p{
+    text-align: left;
+    font-family: Arial Helvetica sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* End Testimonials */
+
+.skillset{
+    width: 50%;
+    margin-left: 20px;
+    background-color: rgba(163, 207, 201, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Arial Helvetica sans-serif;
+    background-color: #70857F;
+    border-radius: 5px;
+    border: 0.25px solid #ccc;
+}
+
+/* Core Skills */
+
+.wdes{
+    width: 90%;
+    background-color: rgba(111, 198, 200, 0.4);
+}
+
+.php{
+    width: 85%;
+    background-color: rgba(111, 133, 127, 0.4);
+}
+
+.wd{
+    width: 80%;
+    background-color: rgba(111, 198, 200, 0.4);
+}
+
+.ux{
+    width: 65%;
+    background-color: rgba(111, 133, 127, 0.4);
+}
+
+.js{
+    width: 60%;
+    background-color: rgba(111, 198, 200, 0.4);
+}
+
+/* Soft Skills */
+
+.alist{
+    width: 90%;
+    background-color: rgba(111, 198, 200, 0.4);
+}
+
+.tm{
+    width: 90%;
+    background-color: rgba(111, 133, 127, 0.4);
+}
+
+.comm{
+    width: 85%;
+    background-color: rgba(111, 198, 200, 0.4);
+}
+
+.ips{
+    width: 80%;
+    background-color: rgba(111, 133, 127, 0.4);
+}
+
+.tplayer{
+    width: 75%;
+    background-color: rgba(111, 198, 200, 0.4);
+}
+
+.prob{
+    width: 70%;
+    background-color: rgba(111, 133, 127, 0.4);
+}
+
+/* Side Nav ******************************************************************** */
+
+.sidenav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/white.jpg');
+    background-size: 60% 14%;
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    width: 250px;
+    position : fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+span{
+    margin-top: 50px;
+    color: white;
+}
+
+.sidenav a{
+    padding: 23px 20px 0px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+}
+
+.sidenav a:hover{
+    color: gray;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    right: 0;
+    top: 0;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.sidenav img{
+    width: 60%;
+    height: 25%;
+    padding-left: 18%;
+    padding-top: 20%;
+    margin-bottom: 50px;
+}
