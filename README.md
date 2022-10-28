@@ -12,7 +12,8 @@
 Please commit your files in the respective folders. 
 
 ### Process
-< Added Unique program >  // please change this accordingly
+#### Added Unique program 
+#### Please change this accordingly
 
 ```sh
 $ git clone <URL>
